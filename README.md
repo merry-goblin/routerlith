@@ -5,7 +5,7 @@ Routerlith
 
 ### Purpose
 
-The main purpose of Routerlith is to handle your route in order to call controller's methods.
+The main purpose of Routerlith is to handle your routes in order to call controller's methods.
 
 ### Description
 
@@ -70,13 +70,13 @@ $response   = $routerlith->dispatch($route, array());
 
 #### Monolith\Routerlith\Routerlith
 
-- **<<constructor>>(routing) :**                    builds routing
-- **addRouteModels(routing) :**                     completes routing
-- **getRoute($requestUrl, $requestMethod) :**       gets an instance of Monolith\Routerlith\Route or null from an url and a http method (GET, POST ...)
-- **getCurrentRoute() :**                           gets an instance of Monolith\Routerlith\Route or null from the current url
-- **getRouteByName() :**                            builds a route from a model and parameters
-- **generate() :**                                  generates a relative path from a route
-- **dispatch() :**                                  calls the action of a route. An action is a method of a controller
+- **constructor (routing) :**                     builds routing
+- **addRouteModels(routing) :**                   completes routing
+- **getRoute($requestUrl, $requestMethod) :**     gets an instance of Monolith\Routerlith\Route or null from an url and a http method (GET, POST ...)
+- **getCurrentRoute() :**                         gets an instance of Monolith\Routerlith\Route or null from the current url
+- **getRouteByName() :**                          builds a route from a model and parameters
+- **generate() :**                                generates a relative path from a route
+- **dispatch() :**                                calls the action of a route. An action is a method of a controller
 
 --------------------------
 

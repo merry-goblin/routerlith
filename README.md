@@ -15,10 +15,6 @@ The main purpose of Routerlith is to handle your routes in order to call control
 
 ### Sample
 
-This is an example on how to map the [database](http://www.sqlitetutorial.net/sqlite-sample-database/) below :
-
-[![chinook](config/sqlite-sample-database-color.jpg)](http://www.sqlitetutorial.net/sqlite-sample-database/)
-
 ```
 <?php
 
@@ -70,7 +66,7 @@ $response   = $routerlith->dispatch($route, array());
 
 #### Monolith\Routerlith\Routerlith
 
-- **constructor (routing) :**                     builds routing
+- **constructor(routing) :**                      builds routing
 - **addRouteModels(routing) :**                   completes routing
 - **getRoute($requestUrl, $requestMethod) :**     gets an instance of Monolith\Routerlith\Route or null from an url and a http method (GET, POST ...)
 - **getCurrentRoute() :**                         gets an instance of Monolith\Routerlith\Route or null from the current url

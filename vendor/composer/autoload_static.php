@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit2f85135c9184a0ad37ac293cde0881db
+class ComposerStaticInita19af790f370308a9f578deaf933db00
 {
     public static $fallbackDirsPsr4 = array (
         0 => __DIR__ . '/../..' . '/src',
@@ -13,9 +13,9 @@ class ComposerStaticInit2f85135c9184a0ad37ac293cde0881db
     public static $prefixesPsr0 = array (
         'M' => 
         array (
-            'Monolith' => 
+            'Monolith\\Routerlith\\' => 
             array (
-                0 => 'C:\\wamp64\\www\\Routerlith\\vendor',
+                0 => __DIR__ . '/..' . '/merry-goblin/routerlith',
             ),
         ),
     );
@@ -23,8 +23,8 @@ class ComposerStaticInit2f85135c9184a0ad37ac293cde0881db
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->fallbackDirsPsr4 = ComposerStaticInit2f85135c9184a0ad37ac293cde0881db::$fallbackDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit2f85135c9184a0ad37ac293cde0881db::$prefixesPsr0;
+            $loader->fallbackDirsPsr4 = ComposerStaticInita19af790f370308a9f578deaf933db00::$fallbackDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInita19af790f370308a9f578deaf933db00::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }

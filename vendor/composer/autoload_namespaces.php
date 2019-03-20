@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Monolith' => array($vendorDir),
+    'Monolith\\Routerlith\\' => array($vendorDir . '/merry-goblin/routerlith'),
 );

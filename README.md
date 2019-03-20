@@ -13,6 +13,21 @@ The main purpose of Routerlith is to handle your routes in order to call control
 - Inspired by [dannyvankooten/PHP-Router](https://github.com/dannyvankooten/PHP-Router)
 - Simple
 
+### Easy to install
+
+- php composer require merry-goblin/routerlith:"dev-master"
+or
+- git clone merry-goblin/routerlith-composer
+
+No sample files will be included. 
+See the paragraph below to test Routerlith.
+
+### Install a standalone sample of Routerlith ready to be used
+
+git clone merry-goblin/routerlith
+
+Sample's entry point is "web/index.php".
+
 ### Sample
 
 ```

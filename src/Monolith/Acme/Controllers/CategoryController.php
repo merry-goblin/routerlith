@@ -11,6 +11,6 @@ class CategoryController
 
 	public function getAction($id)
 	{
-		echo "category : ".$id;
+		return "category : ".$id;
 	}
 }

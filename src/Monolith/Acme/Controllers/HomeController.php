@@ -11,6 +11,6 @@ class HomeController
 
 	public function getAction()
 	{
-		echo "home";
+		return "home";
 	}
 }

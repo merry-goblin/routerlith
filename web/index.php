@@ -37,6 +37,10 @@ $routerlith = new \Monolith\Routerlith\Routerlith($routing);
 $route      = $routerlith->getCurrentRoute();
 $response   = $routerlith->dispatch($route, array());
 
+//	Response can be a string or you can implement something more sophisticated
+//	It's up to you
+echo $response;
+
 //	try me :
 //	http://www.mydomainname.com/
 //	http://www.mydomainname.com/cat/1

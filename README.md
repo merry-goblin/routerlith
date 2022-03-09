@@ -15,7 +15,7 @@ The main purpose of Routerlith is to handle your routes in order to call control
 
 ### Easy to install
 
-- php composer require merry-goblin/routerlith:"dev-master"
+- composer require merry-goblin/routerlith:"dev-master"
 or
 - git clone merry-goblin/routerlith-composer
 
